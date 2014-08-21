@@ -1,5 +1,11 @@
 #Notes
 
+####Strings
+- `Str` is a heap allocated string with a dynamic length
+- `&str` immutable view into string (pointer?), a literal
+- `to_str()` turns a `&str` into a `Str` (conversion method?)
+- An application for `to_str()` is when a variable can be string or a num, either of which need to be printed as strings.
+
 ####Crates
 -  Running `rustc` compiles a single crate.
 -  A "Root crate" is the highest level module in a nested module hierarchy.
